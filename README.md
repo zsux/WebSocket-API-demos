@@ -5,4 +5,4 @@ demos for WebSocket API
 
 常见问题请参考[FAQ](https://github.com/huobiapi/API-FAQ/wiki)
 
-欢迎大家踊跃提供各种语言demo，请加api交流QQ群597821383联系管理员Ryan（加群需要同时提供uid和编程语言），有礼品相送~
+所有demo均来自热心用户，欢迎大家提交各种语言的demo。可加入api交流QQ群 597821383（加群需要同时提供uid和编程语言）进行问题咨询
