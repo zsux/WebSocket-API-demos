@@ -1,12 +1,15 @@
+设置代理
+
+- https://sanctum.geek.nz/arabesque/ssh-socks-and-curl/
+
+  ssh -D localhost:8001 -fN joseph@IP
+  curl --proxy socks5h://localhost:8001 https://api.huobipro.com
+
+
 进入当前文件夹，安装WebSocketclient。
 
   docker run -it -v $PWD:/code python:3.7.0b4-stretch bash
   cd /code
   pip3 install ./websocket_client-0.44.0-py2.py3-none-any.whl
-  
-  ssh -D localhost:8001 -fN joseph@IP
-  
-  curl --proxy socks5h://localhost:8001 https://api.huobipro.com
-
   python huobi.py
   
